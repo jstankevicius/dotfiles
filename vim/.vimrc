@@ -10,10 +10,10 @@ set ruler
 set showmatch
 set so=10
 set clipboard=unnamedplus
-colorscheme gruvbox
-
-highlight ColorColumn ctermbg=234
-highlight CursorLine ctermbg=234
+colorscheme solarized
+"highlight ColorColumn ctermbg=234
+"highlight CursorLine ctermbg=234
+highlight SignColumn ctermbg=0
 
 " Enable heresy :)
 set mouse=a
