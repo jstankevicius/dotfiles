@@ -1,4 +1,5 @@
 (require 'package)
+(require 'cc-mode)
 
 ; Add melpa package source when using package list
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
@@ -90,7 +91,7 @@
 ; C/C++ mode style stuff
 (setq-default c-basic-offset 4)
 (setq-default c++-basic-offset 4)
-
+(setq c-default-style "bsd")
 
 ; Color scheme
 (add-to-list 'load-path "~/.emacs.d/solarized-emacs/")
@@ -98,6 +99,7 @@
 (load-theme 'solarized-light :no-confirm)
 
 ; Ruler at column 80
+(setq-default fill-column 80)
 (add-hook 'prog-mode-hook #'display-fill-column-indicator-mode)
 
 ; Font size
