@@ -107,3 +107,4 @@
 (setq-default indent-tabs-mode nil)
 
 (set-face-attribute 'default nil :height 160)
+;(set-face-foreground 'fill-column-indicator "#EEEEEE")
